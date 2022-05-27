@@ -1,0 +1,172 @@
+html{
+    box-sizing:border-box;
+    font-size: 10px;
+  }
+
+  *,*::before,*::after{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  font-family: 'Noto Serif JP', sans-serif;
+  background-color: #ffffff;
+  width: auto;
+  height: auto;
+}
+
+
+
+.text_title{
+    color: #111111;
+    font-size: 3.5rem;
+    font-family: 'Roboto','Arial', 'Arial Narrow', sans-serif;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0.495em;
+    margin-bottom: 27px;
+}
+
+.text_name{
+    color: #111111;
+    font-size: 3.1rem;
+    font-family: 'Roboto','Arial', 'Arial Narrow', sans-serif;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.275em;
+    margin-bottom: 8px;
+}
+
+.text_school{
+    color: #878787;
+    font-size: 1.8rem;
+    font-family: 'Roboto','Arial', 'Arial Narrow', sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.08em;
+}
+
+.text_about{
+    color: #111111;
+    font-size: 2.3rem;
+    font-family: 'Roboto','Arial', 'Arial Narrow', sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.275em;
+}
+
+.text_footer{
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    font-family: 'Noto Serif JP','Roboto','Arial', 'Arial Narrow', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.495em;
+}
+
+
+
+
+.banner{
+    margin-bottom: -3px;
+    /* width: 100%; */
+    /* height: 100%; */
+    /* z-index: -1;
+    position: fixed;
+    top: 0; */
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.container{
+    width: 100%;
+    min-height: 90vh;
+    padding: ˙78px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 78px 144px;
+}
+
+
+.about_container{
+    background-color: #ffffff;
+}
+
+.about_content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.about_content_container{
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about_content img{
+    border-radius: 100%;
+    margin-bottom: 16px;
+}
+
+.about_right{
+    max-width: 70%;
+    align-items: flex-start;
+}
+
+
+
+
+
+.animate_container{
+    background-color: #d7e0ee;
+}
+
+.animate_game{
+    display: flex;
+    justify-content: center;
+    width: 720px;
+    height: 405px;
+}
+
+.arduino_container{
+    background-color: #ffffff;
+}
+
+
+
+
+footer{
+    width: 100%;
+    background-color: #546986;
+    display: flex;
+    justify-content: space-around;
+    padding: 34px 30px;
+}
+
+.footer_left{
+    margin-right: 20px;
+}
+
+.footer_sns_container{
+    margin-top: 10px;
+    display: flex;
+}
+
+.footer_sns{
+    margin-right: 18px;
+}
+
+.footer_sns:hover{
+    opacity: .5;
+}
