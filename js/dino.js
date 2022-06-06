@@ -683,7 +683,7 @@
 			var w = lib.properties.width, h = lib.properties.height;	
 
 			var iw = window.innerWidth, ih=window.innerHeight;
-			var iwa = $('.animate_game').width(), iha=$('.animate_game').height();	//改成這樣
+			var iwa = $('.animate_content').width(), iha=$('.animate_content').height();	//改成這樣
 			if (iw>iwa) iw=iwa; if(ih>iha) ih=iha;
 
 			var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;			

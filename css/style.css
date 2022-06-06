@@ -10,8 +10,8 @@ html{
 }
 
 body{
-  font-family: 'Noto Serif JP', sans-serif;
-  background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FCFEFF;
   width: auto;
   height: auto;
 }
@@ -19,9 +19,9 @@ body{
 
 
 .text_title{
-    color: #111111;
+    color: #594934;
     font-size: 3.5rem;
-    font-family: 'Roboto','Arial', 'Arial Narrow', sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     font-weight: 400;
     line-height: 46px;
     letter-spacing: 0.495em;
@@ -29,9 +29,9 @@ body{
 }
 
 .text_name{
-    color: #111111;
+    color: #594934;
     font-size: 3.1rem;
-    font-family: 'Roboto','Arial', 'Arial Narrow', sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0.275em;
@@ -39,18 +39,19 @@ body{
 }
 
 .text_school{
-    color: #878787;
+    color: #D9CCBD;
     font-size: 1.8rem;
-    font-family: 'Roboto','Arial', 'Arial Narrow', sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     font-weight: 400;
     line-height: 21px;
     letter-spacing: 0.08em;
+    margin-bottom: 16px;
 }
 
 .text_about{
-    color: #111111;
+    color: #594934;
     font-size: 2.3rem;
-    font-family: 'Roboto','Arial', 'Arial Narrow', sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     font-weight: 400;
     line-height: 27px;
     letter-spacing: 0.275em;
@@ -59,25 +60,26 @@ body{
 .text_footer{
     color: #FFFFFF;
     font-size: 1.4rem;
-    font-family: 'Noto Serif JP','Roboto','Arial', 'Arial Narrow', sans-serif;
+    font-family: 'Noto Serif JP', serif;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0.495em;
 }
 
 
-
+header{
+    /* height: 100vh; */
+}
 
 .banner{
-    margin-bottom: -3px;
-    /* width: 100%; */
-    /* height: 100%; */
+    /* margin-bottom: -3px; */
+
     /* z-index: -1;
     position: fixed;
     top: 0; */
 }
 
-.banner img{
+.banner_container img{
     width: 100%;
     height: auto;
     
@@ -85,18 +87,18 @@ body{
 
 .container{
     width: 100%;
-    min-height: 90vh;
-    padding: ˙78px auto;
+    /* min-height: 90vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 78px 144px;
+    padding: 78px 174px;
 }
 
 
 .about_container{
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    /* background-color: rgba(255, 255, 255, .7); */
 }
 
 .about_content{
@@ -120,7 +122,7 @@ body{
 }
 
 .about_right{
-    max-width: 70%;
+    margin-left: 31px;
     align-items: flex-start;
 }
 
@@ -129,18 +131,12 @@ body{
 
 
 .animate_container{
-    background-color: #d7e0ee;
+    background-color: #D8E7EF;
 }
 
-.animate_game{
-    display: flex;
-    justify-content: center;
+.animate_content{
     width: 720px;
     height: 405px;
-}
-
-.arduino_container{
-    background-color: #ffffff;
 }
 
 
@@ -148,15 +144,12 @@ body{
 
 footer{
     width: 100%;
-    background-color: #546986;
+    background-color: #6C818C;
     display: flex;
-    justify-content: space-around;
-    padding: 34px 30px;
+    justify-content: space-between;
+    padding: 34px 130.5px;
 }
 
-.footer_left{
-    margin-right: 20px;
-}
 
 .footer_sns_container{
     margin-top: 10px;
